@@ -3,7 +3,8 @@ class Solution:
         count = 0
         hm = {0:-1} # count : index
         ans = 0
-        for i in range(len(nums)):
+        n = len(nums)
+        for i in range(n):
             if nums[i] == 0:
                 count -= 1
             else:
