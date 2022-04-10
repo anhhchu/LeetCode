@@ -3,7 +3,7 @@ class Solution:
         #print("5".isnumeric())
         scores = []
         for item in ops:
-            print(item, scores)
+            #print(item, scores)
             if item.isnumeric() or item[0] == '-':
                 scores.append(int(item))
             elif item == 'C':
